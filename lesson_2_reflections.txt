@@ -11,4 +11,4 @@ Q - How do the diagrams help you visualize the branch structure?
 A - Git log --graph --oneline master prints out a diagram the visualize the reachability from every commit.
 
 Q - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-A - After the merging every commit in each branches mix into one list of commits sorted by date because the reachability becomes merged as well.
+A - Commits are mexed into one list by mixing. After then these commits are sorted by date because the reachability becomes merged as well.
