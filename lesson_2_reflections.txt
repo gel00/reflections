@@ -1,0 +1,14 @@
+﻿Q - What happens when you initialize a repository? Why do you need to do it?
+A - Git init create an empty repository without any commit, that stored in the .git hidden folder in the working directory.
+
+Q - How can you use the staging area to make sure you have one commit per logical change?
+A - You can add only the modified files to the staging area with the git add command. Or remove with the git reset command. Git diff without arguments compares the working area and the staging area. Git diff --staged compares the staging area with the repository.
+
+Q - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A - Branches are helful in separating the well tested and working master branch from new or experimental modifications.
+
+Q - How do the diagrams help you visualize the branch structure?
+A - Git log --graph --oneline master prints out a diagram the visualize the reachability from every commit.
+
+Q - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A - After the merging every commit in each branches mix into one list of commits sorted by date because the reachability becomes merged as well.
