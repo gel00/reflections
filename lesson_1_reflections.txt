@@ -14,7 +14,7 @@ Q - How can you use the commands git log and git diff to view the history of fil
 A - Git log lists all the commits, and git diff compares them.
 
 Q - How might using version control make you more confident to make changes that could break something?
-A - It's easy to load back the last working version or to find cause of the bug.
+A - It's easy to load back the last working version or to find the cause of the bug.
 
 Q - Now that you have your workspace set up, what do you want to try using Git for?
 A - I will experimentalise jQuery plugins and other user interfaces that I have already created.
